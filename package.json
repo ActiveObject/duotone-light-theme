@@ -1,0 +1,37 @@
+{
+    "name": "vpryim-theme",
+    "displayName": "Vasyl Pryimachuk Themes",
+    "description": "Vasyl Pryimachuk Themes",
+    "version": "0.0.1",
+    "publisher": "vpryim",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Duotone Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/duotone-light-theme-color-theme.json"
+            },
+            {
+                "label": "Duotone Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/duotone-dark-theme-color-theme.json"
+            },
+            {
+                "label": "Github Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/github-light-theme-color-theme.json"
+            },
+            {
+                "label": "Deep Blue Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-light-theme-color-theme.json"
+            }
+        ]
+    }
+}

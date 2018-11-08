@@ -1,0 +1,181 @@
+{
+	"type": "dark",
+	"colors": {
+		"editor.background": "#468bfd",
+		"editor.foreground": "#fff",
+		"editor.selectionBackground": "#0346B9",
+		"editor.selectionHighlightBackground": "#0346B999",
+		"editor.selectionForeground": "#fff",
+		"editor.findMatchBackground": "#00C9AD",
+		"editor.findMatchHighlightBackground": "#00C9AD",
+		"editor.lineHighlightBackground": "#1C6FFB",
+		"editorCursor.foreground": "#FFD833",
+		"editorLineNumber.foreground": "#477eec",
+		"editorGroupHeader.tabsBackground": "#f0f0f0",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBar.background": "#1C6FFB",
+		"statusBar.noFolderBackground": "#7a3e9d",
+		"activityBar.background": "#f0f0f0",
+		"activityBar.foreground": "#007acc",
+		"statusBar.debuggingBackground": "#ffbc5d",
+		"statusBar.debuggingForeground": "#000000",
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#aa3731",
+		"terminal.ansiGreen": "#448c27",
+		"terminal.ansiYellow": "#ffbc5d",
+		"terminal.ansiBlue": "#325cc0",
+		"terminal.ansiMagenta": "#7a3e9d",
+		"terminal.ansiCyan": "#0083b2",
+		"terminal.ansiWhite": "#bbbbbb",
+		"terminal.ansiBrightBlack": "#777777",
+		"terminal.ansiBrightRed": "#f05050",
+		"terminal.ansiBrightGreen": "#60cb00",
+		"terminal.ansiBrightYellow": "#ffd9a6",
+		"terminal.ansiBrightBlue": "#007acc",
+		"terminal.ansiBrightMagenta": "#e64ce6",
+		"terminal.ansiBrightCyan": "#00aacb",
+		"terminal.ansiBrightWhite": "#ffffff"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#000000ff",
+				"background": "#f7f7f7ff"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#FFAD73"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"string.regexp",
+				"constant.other.symbol",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#00ffdd"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.keyword",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#FFD891"
+			}
+		},
+		{
+			"name": "Entity",
+			"scope": [
+				// "entity.name.type",
+				// "meta.definition",
+				// "variable.other.readwrite.alias",
+				"entity.other.attribute-name",
+				"support.type.property-name.json"
+				// "meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Definition",
+			"scope": [
+				"meta.definition.property",
+				"meta.definition.method"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#6DA2FD"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#9ABFFD"
+			}
+		},
+		{
+			"name": "Extra: Diff Range",
+			"scope": [
+				"meta.diff.range",
+				"meta.diff.index",
+				"meta.separator"
+			],
+			"settings": {
+				"background": "#DDDDFF",
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff From",
+			"scope": "meta.diff.header.from-file",
+			"settings": {
+				"background": "#FFDDDD",
+				"foreground": "#434343"
+			}
+		},
+		{
+			"name": "Extra: Diff To",
+			"scope": "meta.diff.header.to-file",
+			"settings": {
+				"background": "#DDFFDD",
+				"foreground": "#434343"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#316bcd"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cd9731"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#cd3131"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#800080"
+			}
+		}
+	]
+}
